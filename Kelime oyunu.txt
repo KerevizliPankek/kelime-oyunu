@@ -1,0 +1,20 @@
+Kelime oyunu yazalım:
+1. Sözlük versini kaggle dan bulup alalım. Veriyi 4, 5, 6, 7, 8, 9 ve 10 harfli olacak biçimde filtreleyelim.(veri_filtrele.py)
+2. TDK sözlüğünü veritabanına yazalım --> Firabase
+3. Oyun için gerekli her birinden 2 adet olmak üzere, sırasıyla 4, 5, 6, 7, 8, 9 ve 10 harfli kelimeleri çekelim ve hazır hale getirelim.
+4. Kullanıcı kaydı alalım. Kullanıcı adı ve şifre bilgisini alıp veritabanında sorgu yapalım. Şifreleri hash ile saklayalım. ve oturum başlatalım.(users/altanalaybeyoglu@gmail.com --> password, oyun1, oyun2...)
+5. Oyun algoritmasını yazalım.
+6. Kullancı için oyun  verilerini (sorular ve puan) veritabanına  yazalım.
+
+
+
+
+Oyunumuz bir python arayüzünde oynansın 
+
+Oyun kuralları:
+Yarışmaya başlarken size 5 dk. süre verilir. 
+Sorular, her birinden 2 adet olmak üzere, sırasıyla 4, 5, 6, 7, 8, 9 ve 10 harfli kelimelerden oluşur.
+Amacınız, minimum harf desteği alarak kelimeleri bulmaktır. Harf almak için "Harf Lütfen" diyerek harf alabilirsiniz ama her harf alışınızda sorunun puanından 100 puan eksilecektir. Bu jokeri olabildiğince az kullanmaya bakın!
+
+Eğer soruya yanlış cevap verirseniz, açılmamış harf sayısı x 100 kadar puan eksilir, doğru cevap verirseniz yine aynı miktarda puan kazanırsınız.
+Oyun sonunda kalan saniyeleriniz ... ile çarpılarak puana eklenir. (çarpanı nasıl optimize ederim?) 
