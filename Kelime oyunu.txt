@@ -18,3 +18,6 @@ Amacınız, minimum harf desteği alarak kelimeleri bulmaktır. Harf almak için
 
 Eğer soruya yanlış cevap verirseniz, açılmamış harf sayısı x 100 kadar puan eksilir, doğru cevap verirseniz yine aynı miktarda puan kazanırsınız.
 Oyun sonunda kalan saniyeleriniz ... ile çarpılarak puana eklenir. (çarpanı nasıl optimize ederim?) 
+
+
+deneme
